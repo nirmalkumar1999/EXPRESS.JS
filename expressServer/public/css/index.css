@@ -1,0 +1,11 @@
+h1{
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: aqua;
+    color: orangered;
+}
+button{
+    background-color: blue;
+    color: white;
+}
