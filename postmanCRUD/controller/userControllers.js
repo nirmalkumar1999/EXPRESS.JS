@@ -16,7 +16,6 @@ const userSignup = (req, res) => {
             res.status(201).send({ message: "User Registraion Successfull" })
         }
     }
-
 }
 
 //getUser
@@ -75,6 +74,5 @@ const deleteUser = (req, res) => {
         return req.status(400).send("Provide The Require Fields")
 
     }
-
 }
 module.exports = { userSignup, getUser, updateUser, deleteUser }
